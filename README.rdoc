@@ -6,6 +6,17 @@ themes or source code.
 
 Example adapt Highrise theme to redmine backlogs:
 
-  body.theme-Highrise .rb-main #content { margin-left:165px;margin-right:-165px; }
-  body.theme-Highrise #rbcontentwrapper { margin-right:165px; }
+    body.theme-Highrise .rb-main #content {
+      margin-left:165px;margin-right:-165px;
+    }
+    body.theme-Highrise #rbcontentwrapper {
+      margin-right:165px;
+    }
+    body.controller-rb_master_backlogs #main {
+      overflow:hidden;
+    }
+    html > body.controller-rb_master_backlogs #content {
+      min-height: 1200px;
+    }
 
+Check out the wiki at https://github.com/patrickatamaniuk/x_backlogs_styleadapter/wiki
