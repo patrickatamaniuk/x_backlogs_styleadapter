@@ -6,6 +6,6 @@ themes or source code.
 
 Example adapt Highrise theme to redmine backlogs:
 
-  body.theme-Highrise .rb-main #content { margin-left:165px; }
+  body.theme-Highrise .rb-main #content { margin-left:165px;margin-right:-165px; }
   body.theme-Highrise #rbcontentwrapper { margin-right:165px; }
 
