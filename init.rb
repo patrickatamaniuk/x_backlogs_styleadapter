@@ -6,5 +6,6 @@ Redmine::Plugin.register :x_backlogs_styleadapter do
   url 'https://github.com/path/patrickatamaniuk/x_backlogs_styleadapter'
   author_url 'https://github.com/patrickatamaniuk'
 
+  require_dependency 'x_backlogs_styleadapter_header_hook.rb'
   settings :default => {'empty' => true}, :partial => 'settings/settings'
 end
