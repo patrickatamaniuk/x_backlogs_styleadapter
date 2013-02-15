@@ -1,8 +1,10 @@
 Redmine::Plugin.register :x_backlogs_styleadapter do
   name 'X Backlogs Styleadapter plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Patrick Atamaniuk'
+  description 'Style patches for for Redmine Backlogs and Redmine'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/path/patrickatamaniuk/x_backlogs_styleadapter'
+  author_url 'https://github.com/patrickatamaniuk'
+
+  settings :default => {'empty' => true}, :partial => 'settings/settings'
 end
