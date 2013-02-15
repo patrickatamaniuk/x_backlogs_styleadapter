@@ -1,3 +1,11 @@
 = x_backlogs_styleadapter
 
-Description goes here
+Css style injection into the header.
+Configure any style tweaks so you do not need to patch
+themes or source code.
+
+Example adapt Highrise theme to redmine backlogs:
+
+  body.theme-Highrise .rb-main #content { margin-left:165px; }
+  body.theme-Highrise #rbcontentwrapper { margin-right:165px; }
+
